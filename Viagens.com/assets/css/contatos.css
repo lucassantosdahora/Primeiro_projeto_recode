@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif; 
+    
+}
+
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color:rgb(245, 202, 147);
+  }
+
+  .titulo{
+    margin-top: 10vh;
+    padding: 2vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container-viagens{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    background-color:#00ad90;
+    width: 100vw;
+    height: 120vh;
+    padding-top: 4em;
+    padding-left: 2em;
+    padding-right: 4em;
+    margin-top: 15vh;
+  }
+
+  .container-viagens2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    background-color:rgb(245, 202, 147);
+    width: 100vw;
+    height: 120vh;
+    padding-top: 4em;
+    padding-left: 2em;
+    padding-right: 4em;
+    margin-top: 15vh;
+  }
+
+  .contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(246, 246, 246);
+    width: 20vw ;
+    height:60vh ;
+  }
+   
+
+  .img{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    height: 50vh;
+    width: 100vh;
+  }
+
+
+  .rede{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    padding: 9vh;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    height: 30vh;
+    width: 15vw;
+    justify-content: center;
+    transition: all 0.3s ease-out;
+    text-decoration:none;
+    color: antiquewhite;
+    background-color: rgb(238, 238, 238);
+  }
+
+  .rede:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+
+  .img-contatos{
+    width: 15vh;
+    height:15vh ;
+  }
+
+  .links{
+    transition: 0.5s ease;
+    color: #00ad90;
+    text-decoration:none;
+    
+  }
+
+  .links:hover{
+    color: red;
+    
+}
+
+.historia{
+  color: azure;
+}
+  

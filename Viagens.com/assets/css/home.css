@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif; 
+    
+}
+
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color:rgb(245, 202, 147);
+  }
+
+  .container-informe{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    width: 213vh;
+    height: 140vh;
+    margin-top: 15vh;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40vh;
+    width: 290px;
+    height: 374px;
+    border-radius: 20px;
+    background: #f5f5f5;
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+   }
+   
+   .card-details {
+    color: black;
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+   }
+
+   .img-card{
+    display: flex;
+    height: 35vh;
+    width: 40vh;
+   }
+   
+   .card-button {
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: #00ad90;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+   }
+   
+   .text-body {
+    color: rgb(134, 134, 134);
+   }
+   
+   /*Text*/
+   .text-title {
+    font-size: 1.5em;
+    font-weight: bold;
+   }
+   
+   /*Hover*/
+   .card:hover {
+    border-color: #00ad90;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+   }
+   
+   .card:hover .card-button {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+    text-decoration: none;
+   }
+
+  
+
+  .container-image{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 10vh;
+    width: 213vh;
+    height: 140vh;
+    margin-top: 15vh;
+  }
+
+  .row-img{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .bloco-img{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7vh;
+    width:55vh ;
+    height:55vh ;
+  }
+
+  .container-guia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;
+    width: 213vh;
+    height: 140vh;
+    margin-top: 15vh;
+  }
+
+  .row-guiar{
+    display: flex;
+    flex-direction:row;
+    height: 30vh;
+
+  }
+
+  .bloco-img2{
+    display: flex;
+    justify-content: space-around;
+    width:100vh ;
+    height:70vh ;
+  }

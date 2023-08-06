@@ -1,0 +1,17 @@
+footer{
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:  #00ad90;
+    color: antiquewhite;
+    height:40vh;
+    padding: 20px;
+    margin-top: 40vh;
+}
+
+.cartoes{
+    display: flex;
+    height: 80px;
+}
